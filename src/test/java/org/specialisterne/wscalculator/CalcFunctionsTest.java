@@ -20,9 +20,8 @@ public class CalcFunctionsTest {
 	public void givenAreTwoIntegers_whenAddValuesIsExecuted_thenNumbersAreAddedUp(){
 		//given
 		int number1 = 1;
-		int number2 = 2;
-		int expectedResult = 3;
-		
+		int number2 = 3;
+		int expectedResult = 4;
 		
 		//when
 		int result = calcFunctions.addValues(number1, number2);
@@ -60,3 +59,25 @@ public class CalcFunctionsTest {
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
